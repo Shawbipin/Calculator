@@ -55,7 +55,7 @@ class Calculator {
     if (this.operation != null) {
       this.PreviousOperandTextElement.innerText = this.getDisplaynumber(this.previousOperand) + " " + this.operation;
     }
-  
+
     else {
       this.PreviousOperandTextElement.innerText = " ";
     }
